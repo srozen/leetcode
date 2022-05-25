@@ -16,4 +16,8 @@ defmodule LongestSubstringTest do
   test "case 4" do
     assert LongestSubstring.length_of_longest_substring(" ") == 1
   end
+
+  test "case 5" do
+    assert LongestSubstring.length_of_longest_substring("aab") == 2
+  end
 end
